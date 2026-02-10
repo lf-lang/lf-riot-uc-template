@@ -95,9 +95,10 @@ pkgs.mkShell {
     gnumake
     openocd
     python312Packages.pyserial
+    python312Packages.psutil
     buildPackages.gcc-arm-embedded
     buildPackages.binutils
-    buildPackages.libcCross
+    buildPackages.glibc_multi
     newlib-nano
   ];
 
