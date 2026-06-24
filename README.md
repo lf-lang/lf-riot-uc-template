@@ -107,7 +107,7 @@ git submodule update --init --recursive
 
 ## 3. Configure the Makefile
 
-Your new repository has a `Makefile` in the home directory that governs the build. It is set by default to compile a very simple LF program that you can find in `src/HelloWorld.lf`.  To compile a different LF program, edit the `Makefile` to point the `LF_MAIN` to your LF program and
+Your new repository has a `Makefile` in the home directory that governs the build. It is set by default to compile a very simple LF program that you can find in `src/HelloWorld.ulf`.  To compile a different LF program, edit the `Makefile` to point the `LF_MAIN` to your LF program and
 set the `BOARD` variable to specify your board.  By default, these are defined in the `Makefile` as follows:
 
 ```Makefile
